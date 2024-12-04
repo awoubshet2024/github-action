@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GithubActionApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(GithubActionApplication.class, args);
+    }
+    public String getMessage(){
+        return "Hello World";
     }
    /* echo "# github-action" >> README.md
     git init
